@@ -92,7 +92,7 @@ LinkedinStub =
     Router.route extraRoute, extraCallback, where: 'server'
 
 Meteor.startup ->
-  ServiceConfiguration.configurations.remove({})
+  ServiceConfiguration.configurations.remove(service: 'linkedin')
   ServiceConfiguration.configurations.insert
     service: 'linkedin'
     clientId: 'long_consumer_key'
