@@ -15,6 +15,10 @@ as it is a `debugOnly` package.
 
 This package is heavily inspired by [xolvio:meteor-twitter-stub](https://github.com/xolvio/meteor-twitter-stub).
 
+# Whats to be done?
+
+- [ ] Filter extra details according to field list parameter
+
 # License
 
 The MIT License (MIT)
